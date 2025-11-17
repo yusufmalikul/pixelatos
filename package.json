@@ -1,0 +1,20 @@
+{
+  "name": "pixelatos",
+  "version": "1.0.0",
+  "description": "Multiplayer pixelated 2D collection game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1",
+    "peerjs": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
